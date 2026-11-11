@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>osu! em HTML</title>
+<title>osu! em HTML 2</title>
 <style>
 :root{--bg:#000;--fg:#fff;--muted:#999;--accent:#fff;--panel:#0a0a0a;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
@@ -285,5 +285,6 @@ function menu(){
 }
 applyTheme();menu();db('getAll').then(a=>{(a||[]).forEach(x=>lib.push(Object.assign(x,{custom:true})));if(state==='menu'&&tab==='songs')menu()});
 </script>
+    
 </body>
 </html>
